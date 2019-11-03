@@ -11,15 +11,18 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Chylinski, Tomasz</title>
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      
+        <div class="row">
         <div class="col-lg-4"></div>
         <h4>Crystal Collector</h4>
       </div>
+      <br>
 
       <div class="row">
         <div class="col-lg-6">
@@ -46,42 +49,64 @@
         </div>
       </div>
 
-
-
       <div class="row">
         <div class="col-lg-4">
-
-
-
-        
-            <div id="targetSection">
-                <h5 id="targetScore">Target Goal:</h5>
-            </div>
-
-        
+          <h5 id="targetScore">Target Goal:</h5>
+        </div>
+        <div class="col-lg-4">
+          <h5 id="winsTotal">Wins:</h5>
+          <h5 id="lossesTotal">Losses:</h5>
+        </div>
       </div>
 
-      <div class="col-lg-4">
-
-
-
-        
-        <div id="targetSection">
-            <h5 id="winsTotal">Wins:</h5>
-            <h5 id="lossesTotal">Losses:</h5>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="crystal-array" id="crysArray">
+            <button id="amethyst" class="jewel amethyst">
+              <img
+                src="assets/images/Amethyst.jpg"
+                height="80%"
+                width="80%"
+                alt=""
+              />
+            </button>
+            <button id="emld" class="jewel emld">
+              <img
+                src="assets/images/emrel.jpg"
+                height="80%"
+                width="80%"
+                alt=""
+              />
+            </button>
+            <button id="ruby" class="jewel ruby">
+              <img
+                src="assets/images/ruby.jpg"
+                height="80%"
+                width="80%"
+                alt=""
+              />
+            </button>
+            <button id="sapphire" class="jewel sapphire">
+              <img
+                src="assets/images/sapphire.jpg"
+                height="80%"
+                width="80%"
+                alt=""
+              />
+            </button>
+          </div>
         </div>
+      </div>
 
-    
-  </div>
-
-
-
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <h5>Your Total Score:</h5>
+        </div>
+      </div>
     </div>
-
-   
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="assets/javascript/game.js"></script>
-
 </html>

@@ -1,0 +1,29 @@
+
+/*body{
+    height: 100%;
+    background-image: url("../images/cool-background.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+*/
+
+body{
+    background:lightgreen;
+}
+
+button.jewel{
+    height: 134px;
+    padding: 0; 
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
+.jewel{
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
