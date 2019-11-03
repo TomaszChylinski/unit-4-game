@@ -23,18 +23,23 @@ var losses = 0;
 console.log('guess number ' + guessNumber);
 console.log('winning number ' +  winningScore1);
 
-function runGame(){
+$(document).ready(() => {
 
 
-
-  
 $("#targetScore").append(" " +guessNumber);
 $("#winsTotal").append(" " + wins);
 $("#lossesTotal").append(" " + losses);
 
+function win(){
+    losses = losses + 1;
+    $("#winsTotal").text(" " + wins);
+}
 
-
+function lose(){
+    losses = losses + 1;
+    $("#lossesTotal").append(" " + losses);
 
 }
-runGame()
-  
+
+
+});
