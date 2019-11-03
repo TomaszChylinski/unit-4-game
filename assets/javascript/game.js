@@ -76,7 +76,7 @@ $(document).ready(() => {
   });
 
   $("#ruby").click(function() {
-    yourTotalScore = yourTotalScore + winningScore2;
+    yourTotalScore = yourTotalScore + winningScore3;
     $("#yourScore").text(" " + yourTotalScore);
     if (yourTotalScore === guessNumber) {
       win();
@@ -88,7 +88,7 @@ $(document).ready(() => {
   });
 
   $("#sapphire").click(function() {
-    yourTotalScore = yourTotalScore + winningScore2;
+    yourTotalScore = yourTotalScore + winningScore4;
     $("#yourScore").text(" " + yourTotalScore);
     if (yourTotalScore === guessNumber) {
       win();
